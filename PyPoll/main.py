@@ -2,8 +2,6 @@ import csv
 from decimal import Decimal, ROUND_DOWN
 from pathlib import Path
 
-#csvpath = "C:\\Users\\gmich\\OneDrive\\Desktop\\UofM_Bootcamp\\Python\\Week_1\\Starter_Code\\PyPoll\\Resources\\election_data.csv"
-
 csvpath = Path("Resources/election_data.csv")
 
 #opening .csv file with election data

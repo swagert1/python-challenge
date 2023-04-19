@@ -5,8 +5,6 @@ from pathlib import Path
 
 csvpath = Path("Resources/budget_data.csv")
 
-#csvpath = "C:\\Users\\gmich\\OneDrive\\Desktop\\UofM_Bootcamp\\Python\\Week_1\\Starter_Code\\PyBank\\Resources\\budget_data.csv"
-
 #Reading in .csv file with financial data
 
 with open(csvpath, encoding='utf') as csvfile: 
